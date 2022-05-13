@@ -213,7 +213,16 @@ public void jumsu()
 		System.out.printf(" %d점 ", mat_stu[j]);
 		System.out.printf(" %d점 ", hap);
 		System.out.printf(" %d점\n ", avg);
-
+		
+		
+		System.out.println("\n===============================");
+		System.out.println("\n-------------------------------");
+		System.out.println(" 성명  과목1    과목2     과목3");
+		System.out.println("-------------------------------");
+		for(int i=0;i<n;i++) {
+			System.out.printf(" 학생%d %3d점   %3d점   %3d점\n", i+1, kor_stu[i], eng_stu[i], mat_stu[i]);
+		}	
+		
 		System.out.print("-------------------------------\n");
 
 
